@@ -1,45 +1,42 @@
-/* adding styling to our game here. */
-
 *{
     padding: 0;
     margin: 0;
+    
 }
-
-#game {
+body{
+    background-image: url("https://66.media.tumblr.com/01570b0587e9335610b7d24625dcfc09/tumblr_pa0im667bJ1xv0ebao1_1280.jpg");
+    background-size: cover;
+}
+#game{
     width: 400px;
     height: 500px;
-    border: 1px solid black;
+    border: 8px solid gray;
     margin: auto;
-
+    overflow: hidden;
 }
-
-#character {
+#character{
     width: 20px;
     height: 20px;
     background-color: red;
-    border-radius: 50%; /* Border radius of 50% so it turns into a circle. */
+    border-radius: 50%;
     position: relative;
-    top: 440px;
+    top: 400px;
     left: 190px;
-    z-index: 1000000; /* z index of a million so the ball always stays on top.*/
+    z-index: 1000000;
 }
-
-.block {
+.block{
     width: 400px;
-    height:20px;
+    height: 20px;
     background-color: green;
     position: relative;
     top: 100px;
-    margin-top: 20px;
+    margin-top: -20px;
 }
-
-.hole {
+.hole{
     width: 40px;
     height: 20px;
     background-color: white;
     position: relative;
     top: 100px;
     margin-top: -20px;
-
 }
-
