@@ -24,3 +24,22 @@
     z-index: 1000000; /* z index of a million so the ball always stays on top.*/
 }
 
+.block {
+    width: 400px;
+    height:20px;
+    background-color: green;
+    position: relative;
+    top: 100px;
+    margin-top: 20px;
+}
+
+.hole {
+    width: 40px;
+    height: 20px;
+    background-color: white;
+    position: relative;
+    top: 100px;
+    margin-top: -20px;
+
+}
+
